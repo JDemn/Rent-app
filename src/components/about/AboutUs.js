@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const LoginScreen = () => {
+export const AboutUs = () => {
     return (
         <div>
-            <h4>Login LoginScreen</h4>
+            <h3>About us</h3>
         </div>
     )
 }

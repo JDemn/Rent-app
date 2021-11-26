@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { AppRouter } from './routes/AppRouter';
 
 export const RentCard = () => {
   return (
-    <div>
-      <h4>Rent app</h4>
-    </div>
+    <>
+      <AppRouter/>
+    </>
   )
 }

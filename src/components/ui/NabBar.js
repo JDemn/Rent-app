@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const LoginScreen = () => {
+export const NabBar = () => {
     return (
         <div>
-            <h4>Login LoginScreen</h4>
+            <h2>Soy el navbar</h2>
         </div>
     )
 }
