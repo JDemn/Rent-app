@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//our components
 import { RentCar } from './RentCar';
 import reportWebVitals from './reportWebVitals';
+//styles
+import './styles/styles.scss';
 
 ReactDOM.render(
   <React.StrictMode>

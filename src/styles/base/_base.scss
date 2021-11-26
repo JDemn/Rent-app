@@ -1,0 +1,33 @@
+@import './settings';
+
+*{
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+    margin: 0px;
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #d9d9d9;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #d9d9d9;
+      }
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: lighten($color: $white, $amount: 23);
+}
+main {
+    width: 100%;
+}
+//estas clases se usan de la misma manera que las de bootstrap
+.pointer {
+    cursor: pointer;
+}

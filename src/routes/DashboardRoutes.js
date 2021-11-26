@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 
 //our components
@@ -16,6 +16,7 @@ export const DashboardRoutes = () => {
                 <Routes>                   
                     <Route path = "about" element = {<AboutUs />}/>    
                     <Route path= "/" element={<MainHome />} />
+                    <Route path="*" element={<Navigate to ="/" />}/>
                 </Routes>   
             </div> 
         </>
