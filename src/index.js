@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RentCard } from './RentCard';
+import { RentCar } from './RentCar';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <RentCard />
+    <RentCar/>
   </React.StrictMode>,
   document.getElementById('root')
 );
